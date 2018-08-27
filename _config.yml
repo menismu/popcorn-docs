@@ -7,3 +7,5 @@ pygments: true
 # auto: true
 # server: true
 
+
+theme: jekyll-theme-minimal
