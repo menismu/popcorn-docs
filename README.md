@@ -1,12 +1,12 @@
 Popcorn.js Documentation
 =====================
 
-The [Popcorn.js](http://github.com/mozilla/popcorn-js) documentation was written using [Jekyll](https://github.com/mojombo/jekyll/wiki), [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) and the [liquid templating system](https://github.com/mojombo/jekyll/wiki/Template-Data).
+The [Popcorn.js](https://github.com/menismu/popcorn-js) documentation was written using [Jekyll](https://github.com/mojombo/jekyll/wiki), [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) and the [liquid templating system](https://github.com/mojombo/jekyll/wiki/Template-Data).
 
 Requirements
 ===========
 
-* **Ruby** - I would recommend using [RubyGems](http://docs.rubygems.org/read/chapter/3)
+* **Ruby** - I would recommend using [RubyGems](https://guides.rubygems.org/what-is-a-gem/)
 * **Jekyll** - `sudo gem install jekyll` if you run into any issues, take a look [here](https://github.com/mojombo/jekyll/wiki/Install)
 * **Pygments** - used for styled code samples, take a look at the [installation instructions](http://pygments.org/download/)
 
@@ -68,8 +68,5 @@ All of our documentation is written in [Markdown](http://daringfireball.net/proj
 Community
 ==========
 
-* [Mailing List for Users](https://groups.google.com/group/web-made-movies-working)
-* [IRC Channel for Developers and Technical Users](irc://irc.mozilla.org/popcorn)
-* [Twitter @popcornjs](https://twitter.com/#!/popcornjs)
-* [File a Bug](https://webmademovies.lighthouseapp.com/projects/63272-popcornjs/tickets/new)
+* [File a Bug](https://github.com/menismu/popcorn-js/issues)
 
