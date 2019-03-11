@@ -5,13 +5,28 @@ title: Googlemap
 
 ## Purpose ##
 
-Adds a map to the target div centered on the location specified by the user.
+Adds a map to the target div centered on the location specified by the user. See below for a variety of map options.
+
+**New for 1.5.12:** The Google Maps API now requires an API key in order to load.  We recommend setting the API key globally before popcorn events are loaded, using the `.defaults()` method of the Popcorn object.  Here is an example: 
+
+``` javascript
+var p = Popcorn( "#video" )
+  .defaults ('googlemap', {
+    target: 'map',
+    apiKey: 'YOUR_API_KEY_HERE'
+})
+
+```
+It is of course also possible to set the API Key individually for each map, but the API will in any case only ever be loaded once, so all calls to the mapping API will be attributed to the same maps user.
+
+[See the Google Maps API docs](https://developers.google.com/maps/documentation/javascript/get-api-key) for instructions on how to create an API key and set permissions appropriately. 
 
 ## Options ##
 
 * **start** \[Number\] - is the time \[in seconds\] when you want the Googlemap to appear.
 * **end** \[Number\] - is the time \[in seconds\] when you want the Googlemap to become hidden.
 * **target** \[String\] - Target is the id of the DOM element that you want the map to appear in. This element must be in the DOM
+* **apiKey** \[String\] - is your own Google Maps API Key, required as of June 11, 2018 (**new parameeter as of 1.5.12**) 
 * **type** \[String, optional\] - either: HYBRID (default), ROADMAP, SATELLITE, TERRAIN, STREETVIEW
 * **zoom** \[Number, optional\] - defaults to 0
 * **heading** \[Number, optional\] - STREETVIEW orientation of camera in degrees relative to true north (0 north, 90 true east, etc)
